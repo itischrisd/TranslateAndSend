@@ -16,7 +16,7 @@ public class CollectAndSendSteps {
     @Given("The web browser is open")
     public void theWebBrowserIsOpen() {
         System.setProperty("webdriver.chrome.driver",
-                "src/main/resources/drivers/chromedriver.exe");
+                "src/test/resources/drivers/chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
     }

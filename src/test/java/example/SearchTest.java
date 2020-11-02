@@ -14,7 +14,7 @@ public class SearchTest {
     @Before
     public void setUp() {
         System.setProperty("webdriver.chrome.driver",
-                "src/main/resources/drivers/chromedriver.exe");
+                "src/test/resources/drivers/chromedriver.exe");
         driver = new ChromeDriver();
 
         driver.manage().window().maximize();
